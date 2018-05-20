@@ -1,3 +1,5 @@
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
@@ -6,7 +8,17 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
+## Scraping with Goutte Client
 
+Goutte is a php library which can scrape data. In this Code repository,  a page has been scraped with the details of hotels and some of it"s features using goutte 
+client.Scraping is very easy task when we know the structure of dom and html inside the page source.We have to carefully study the structure of data embedded 
+within dom and then extract those data using php .All data has been acccumulated inside an array in json format.
+
+## Instructions
+
+- composer install.
+- Run the route in web browser or postman .
+- You will get all the data in json format.
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
